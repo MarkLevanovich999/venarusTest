@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 135px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .about {
+        flex-direction: column;
+    }
+
+}

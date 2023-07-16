@@ -1,0 +1,26 @@
+.recommendationsLeft {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 150px;
+}
+
+.recommendationsLeft h1{
+    width: 263px;
+    height: 79px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 1440px) {
+    
+    .recommendationsLeft {
+        margin-left: 15px;
+    }    
+
+}

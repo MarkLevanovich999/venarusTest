@@ -1,0 +1,22 @@
+.anchorHeaderLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.anchorHeaderLeft a{
+    width: 149px;
+    height: 20px;
+    flex-shrink: 0;
+
+    color: #590D56;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    
+    margin-left: 30px;
+}

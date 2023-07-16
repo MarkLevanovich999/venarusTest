@@ -1,0 +1,131 @@
+.headerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 77px;
+}
+
+.leftPack {
+    width: 374px;
+    height: 308px;
+    flex-shrink: 0;
+    position: absolute;
+
+    margin-left: 449px;
+}
+
+.centrePack {
+    width: 470px;
+    height: 302px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+    
+    margin-top: 72px;
+    margin-left: 143px;
+}
+
+.rightPack {
+    width: 374px;
+    height: 308px;
+    flex-shrink: 0;
+    position: absolute;
+
+    margin-left: 65px;
+}
+
+.buttonsHeaderRight {
+    margin-top: 400px;
+    margin-left: 371px;
+}
+
+.buttonsSlider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.paddingSliderButton {
+    width: 30px;
+}
+
+.buttonsSlider button{
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
+
+}
+
+.buttonWhereByeHeaderRight {
+    width: 263px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 33.5px;
+    border: 1px solid #FFF;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    margin-top: 31px;
+}
+
+.buttonsHeaderRightMobile {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .leftPack,.rightPack {
+        display: none;
+    }
+
+    .centrePack {
+        width: 313px;
+        height: 201px;
+        flex-shrink: 0;
+        z-index: 2;
+
+        margin-top: -190px;
+        margin-left: 0;
+    }
+
+    .buttonsHeaderRight {
+        display: none;
+    }
+
+    .buttonsHeaderRightMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: 0;
+    }
+
+    .buttonWhereByeHeaderRight {
+        color: #5B0E58;
+        border: 1px solid #5B0E58;
+
+        margin-top: 24px;
+        margin-left: 30px;
+    }
+
+    .buttonsSlider button{
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        
+        margin-top: 10px;
+    }
+
+}

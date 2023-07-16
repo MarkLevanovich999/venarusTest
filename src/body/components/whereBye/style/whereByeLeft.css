@@ -1,0 +1,38 @@
+.whereByeLeft {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 150px;
+}
+
+.whereByeLeft h1{
+    width: 157px;
+    height: 79px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.whereByeLeft p{
+    width: 263px;
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154.8%;
+    
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .whereByeLeft {
+        margin-left: 15px;
+    }
+
+}
